@@ -1,0 +1,35 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: "lightgray";
+}
+
+.navbar_bg {
+    display: flex;
+    overflow: auto;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.navbar_contents {
+    margin: 0px;
+    float: left;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+a.navbar_contents {
+    text-decoration: none;
+    color: black;
+}
+
+a.navbar_contents:hover {
+    text-decoration: underline;
+
+}
+
+h1.navbar_contents {
+    padding-left: 20px;
+}
