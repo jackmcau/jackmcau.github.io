@@ -21,8 +21,8 @@ body {
 }
 
 a.navbar_contents {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 a.navbar_contents:hover {
@@ -32,4 +32,8 @@ a.navbar_contents:hover {
 
 h1.navbar_contents {
     padding-left: 20px;
+}
+
+.navbar_contents.active {
+    text-decoration: underline;
 }
