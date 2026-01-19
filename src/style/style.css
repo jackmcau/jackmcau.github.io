@@ -40,9 +40,13 @@ h1.navbar_contents {
 
 .section {
     margin: 25px;
-    background-color:beige;
+    background-color:aliceblue;
     margin-left: 25px;
     font-size: 18px;
+}
+
+h1.content {
+    text-align: center;
 }
 
 .content {
