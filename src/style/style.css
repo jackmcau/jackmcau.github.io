@@ -37,3 +37,25 @@ h1.navbar_contents {
 .navbar_contents.active {
     text-decoration: underline;
 }
+
+.section {
+    margin: 25px;
+    background-color:beige;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.content {
+    padding: 7px;
+    float:top;
+}
+
+h1.content {
+    font-size: 20px;
+}
+
+footer {
+    font-size: 14px;
+    color:gray;
+    text-align: center;
+}
