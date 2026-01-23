@@ -52,6 +52,7 @@ h1.content {
 .content {
     padding: 7px;
     float:top;
+    box-sizing: border-box;
 }
 
 h1.content {

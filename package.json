@@ -7,7 +7,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "pm2 start index.js --name webapp",
+    "restart": "pm2 restart webapp",
     "dev": "nodemon index.js -e js,hbs,css"
   },
   "dependencies": {
