@@ -7,7 +7,7 @@ const path = require('path')
 const app = express();
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'src/views'));
-app.use(express.static(path.join(__dirname, 'src/style')));
+app.use(express.static(path.join(__dirname, 'src/public')));
 hbs.registerPartials(path.join(__dirname, 'src/views/partials'));
 
 const PORT = process.env.PORT || 3000;
