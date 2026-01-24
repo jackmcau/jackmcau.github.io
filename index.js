@@ -8,6 +8,7 @@ const app = express();
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'src/views'));
 app.use(express.static(path.join(__dirname, 'src/public')));
+app.use(express.static(path.join(__dirname, 'favicon')));
 hbs.registerPartials(path.join(__dirname, 'src/views/partials'));
 
 const PORT = process.env.PORT || 3000;
