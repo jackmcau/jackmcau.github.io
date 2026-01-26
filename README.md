@@ -7,7 +7,7 @@ To run:
 * to run in development mode with nodemon `npm run dev`, otherwise 
     * with node: `npm start`
     * with docker: `docker compose up -d`
-* if no errors appear, access at http://localhost:3000/
+* if no errors appear, access at http://localhost:3000/ by default
 
 This was built with handlebars and express
 
