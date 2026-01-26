@@ -1,4 +1,5 @@
 body {
+    list-style-position: inside;
     padding: 0px;
     margin: 0px;
     background-color: "lightgray";
@@ -27,7 +28,12 @@ a.navbar_contents {
 
 a.navbar_contents:hover {
     text-decoration: underline;
+}
 
+@media (max-width: 500px) {
+    .navbar_contents {
+        font-size: 15px;
+    }
 }
 
 h1.navbar_contents {
