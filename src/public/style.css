@@ -9,7 +9,7 @@ body {
     display: flex;
     overflow: auto;
     background-color: aliceblue;
-    width: 100%;
+    width: 100vw;
 }
 
 .navbar_contents {
@@ -30,7 +30,7 @@ a.navbar_contents:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .navbar_contents {
         font-size: 15px;
     }
